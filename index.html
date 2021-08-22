@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprende Crochet con gabytejiendocolores</title>
+  <link href="https://vjs.zencdn.net/7.14.3/video-js.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <nav class="nav">
+    <button class="boton-video-nav"> <a href="#sector-videos">Videos</a></button>
+    <button class="boton-blog-nav"> <a href="#sector-blog">Blog</a></button>
+    <button class="boton-modo-oscuro" id="boton-modo-oscuro">
+      Modo oscuro</button>
+  </nav>
+  <section class="seccion-portada">
+    <h1 class="titulo">Aprende Crochet con @gabytejiendocolores</h1>
+    
+    <div class="carrousel">
+      <button id="retroceder" class="boton-back">Back</button>
+      <div id="imagen" class="imagen-de-carrusel"></div>
+      <button id="avanzar" class="boton-next">Next</button>
+    </div>
+
+    <div class="controles">
+      <button id="play" class="boton-play">Play</button>
+      <button id="stop" class="boton-stop" disabled>Stop</button>
+  </div>
+  </section>
+  <a name="sector-videos"></a>
+  <section class="seccion-videos seccion-fondo">
+    
+    <h3 class="subtitulos">Punto abanicos y varetas</h3>
+    <div>
+      <video controls class="video-js vjs-control-bar vjs-control center-video" id="video-crochet" preload="auto" width="640" height="267" data-setup="{}">
+        <source src="./video/muestra-video-uno.mp4">
+        Video punto Crochet
+      </video>
+    </div>
+    <h3 class="subtitulos">Descripcion:</h3>
+    <p class="center-texto">Hoy aprenderemos a tejer este lindo punto super fácil e ideal para tejidos invernales, ya que su trama es cerrada y muy abrigada!
+      <br>
+      Espero que lo disfrutes y me cuentes en comentarios que te pareció!
+      <br>
+      Conocé mis diseños tejidos en patrones en PDF.
+    </p>
+
+    <h3 class="subtitulos">Punto medias varetas que cierran juntas</h3>
+    <div>
+      <video controls class="video-js vjs-control-bar vjs-control center-video" id="video-crochet" preload="auto" width="640" height="267" data-setup="{}">
+        <source src="./video/muestra-video-dos.mp4">
+        Video punto Crochet
+      </video>
+    </div>
+    <h3 class="subtitulos">Descripcion:</h3>
+    <p class="center-texto">Hola amigas! hoy aprenderemos este hermoso punto cerrado ,ideal para el invierno!
+      <br>
+      Conocé mis diseños tejidos en patrones en PDF.
+    </p>    
+  </section>
+  <a name="sector-blog"></a>
+  <section class="seccion-blog">
+
+    <h2 class="titulo">Visita mi Blog!</h2>
+
+    <h3 class="subtitulos">Artículo</h3>
+    
+    <div class="container-imagen-blog center-blog">
+      <article class="texto-articulo">
+        Hace tiempo estaba con ganas de escribirte, más que nada de compartirte los proyectos que tengo y los nuevos productos que estaré incorporando en Tejiendo Colores!! :)
+        <br>
+        Si pasate por mis redes sociales, habrás notado que comencé un gran y hermoso proyecto..
+        El Mandala Sophie´s Univers es una manta con un gran mandala central con muchos detalles trabajados, es realmente hermoso!! 😍
+        <br>
+        Creo que es la magia del  mandala y la intención que le uno le pone al tejerlo, uno proyecta lo mejor para la persona que lo va a utilizar y te cuento que será destinado a una alfombra de meditacion de yoga, no es genial?
+        Me encantan estos desafíos!
+      </article>
+      <img class="imagen-blog" src="./Imagenes/univers-sophie.jpeg" alt="materiales crochet">
+    </div>
+    
+
+  </section>
+
+
+
+
+  <script src="https://vjs.zencdn.net/7.14.3/video.min.js"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
