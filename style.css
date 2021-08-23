@@ -1,6 +1,8 @@
 body{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(240, 226, 234);
 }
 .nav{
   width: 100%;
@@ -148,6 +150,11 @@ a {
 }
 /* Estilos reproductor de video */
 /*mi clase personal */
+.video-js{
+  width: 640px;
+  height: 267px;
+}
+
 .tc-video{
   width: 50%;
   height:auto;
@@ -219,3 +226,27 @@ a {
    */
 
 
+/* Media query */
+
+@media screen and (max-width:600px){
+  
+  .seccion-videos .seccion-fondo{
+    display: flex;
+    width: auto;
+  }
+  .center-texto{
+    display: flex;
+    width: auto;
+  }
+  .video-js-responsive-container .video-js{
+    width: 400px; 
+  }
+
+}
+
+@media screen and (max-width:500px) {
+
+  .video-js-responsive-container .video-js{
+    width: 400px; 
+  }
+}
