@@ -49,7 +49,6 @@ a {
 }
 .seccion-portada , .seccion-blog{
   text-align: center;
-  height: 640px;
   
 }
 .seccion-fondo{
@@ -108,6 +107,7 @@ a {
 }
 .boton-play , .boton-stop{
   border: 1px solid rgb(243, 180, 240);
+  border-radius: 3px;
   width: 100px;
   margin:8px;
   background-color: rgb(246, 227, 245);
@@ -198,8 +198,8 @@ a {
   justify-content: center;
 }
 .imagen-blog{
-  width: 400px;
-  height: 500px;
+  width: 280px;
+  height: 350px;
   border-radius: 10px;
 }
 .texto-articulo{
@@ -230,13 +230,23 @@ a {
 
 @media screen and (max-width:600px){
   
-  .seccion-videos .seccion-fondo .seccion-blog{
+  .seccion-portada .seccion-videos .seccion-fondo .seccion-blog{
     display: flex;
     width: auto;
+    
   }
+  .carrousel{
+    height: 300px;
+  }
+  .imagen-de-carrusel{
+    width: 100%;
+    height: 300px;
+  }
+
   .center-texto{
     width: auto;
     font-size: 0.7em;
+    margin: auto;
   }
   .video-js-responsive-container .video-js{
     width: 400px; 
@@ -264,5 +274,40 @@ a {
 
   .video-js-responsive-container .video-js{
     width: 400px; 
+  }
+}
+
+@media screen and (max-width:400px) {
+  .carrousel{
+    height: 200px;
+  }
+  .imagen-de-carrusel{
+    height: 200px;
+  }
+  .center-texto{
+    padding: 20px;
+  }
+  .video-js-responsive-container .video-js{
+    width: 300px; 
+  }
+  .video-js .vjs-big-play-button {
+    height: 1.5em;
+    width: 2.5em;
+  }
+  .titulo{
+    margin:0;
+  }
+  .subtitulos{
+    margin: 8px;
+  }
+  .container-imagen-blog{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .texto-articulo{
+    width: 280px;
+    padding-right: 0;
+    padding-bottom: 20px;
   }
 }
