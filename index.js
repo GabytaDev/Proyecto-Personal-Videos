@@ -81,3 +81,15 @@ window.onload = function () {
     renderizarImagen();
 } 
 
+// Menu mobile//
+const iconOpenMenu = document.querySelector(".icon-open-menu")
+const menuMobile = document.querySelector(".menu-mobile")
+const iconCloseMenu = document.querySelector(".fa-times")
+
+iconOpenMenu.onclick = () => {
+    menuMobile.style.display = ("block")
+}
+
+iconCloseMenu.onclick = () => {
+    menuMobile.style.display = ("none")
+}
