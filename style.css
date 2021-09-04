@@ -217,9 +217,17 @@ a {
   font-size: 1em;
   padding-right: 40px;
 }
+.volver-arriba{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1em;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-right: 30px
+};
 /* *** Footer ****/
 .footer{
   text-align: center;
+
 }
 .contenedor-iconos-footer{
   display: flex;
@@ -233,6 +241,7 @@ footer ul li{
 footer h3{
   font-family: fantasy;
   color: #525050;
+  text-align: center;
 }
 .item-icono{
   width: 120px;
@@ -279,9 +288,6 @@ footer h3{
   }
   .menu-mobile{
     display: none;
-  }
-  .menu-mobile{
-    display: flex;
     flex-direction: column;
     margin-left: 5px;
     background-color:rgba(253, 216, 241, 0.76);
