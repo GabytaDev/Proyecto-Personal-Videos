@@ -93,3 +93,4 @@ iconOpenMenu.onclick = () => {
 iconCloseMenu.onclick = () => {
     menuMobile.style.display = ("none")
 }
+
