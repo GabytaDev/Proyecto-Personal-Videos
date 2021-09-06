@@ -400,7 +400,7 @@ footer h3{
     align-items: center;
     padding: 20px;
   }
-  .contenedor-iconos-footer{
+  .contenedor-iconos-footer, .alineacion{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -443,7 +443,7 @@ footer h3{
     padding-right: 0;
     padding-bottom: 20px;
   }
-  .contenedor-iconos-footer{
+  .contenedor-iconos-footer, .alineacion{
     display: flex;
     flex-direction: column;
     justify-content: center;
