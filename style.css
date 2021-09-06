@@ -250,11 +250,30 @@ footer h3{
   align-items: center;
   
 }
-.fa-instagram, .fa-facebook, .fa-envelope, .fa-linkedin{
+.fa-instagram, .fa-facebook, .fa-store{
   font-size: 30px;
   color:rgb(211, 26, 149);
   cursor: pointer;
   margin: 5px;
+}
+
+/* Contactos */
+.fa-envelope, .fa-phone, .fa-linkedin{
+  font-size: 18px;
+  font-weight: 900;
+  color:#525050;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.alineacion{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 0;
+}
+.texto-contacto{
+  padding: 10px;
 }
 /* 
 .clase-modo-claro{
