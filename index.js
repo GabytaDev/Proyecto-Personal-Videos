@@ -1,6 +1,6 @@
 window.onload = function () {
     const imagenes = [
-        'imagenes/agujascrochet.jpg',
+        'imagenes/aguja2.jpg',
         'imagenes/hilados.jpg',
         'imagenes/materiales.jpg'
     ];
