@@ -1,8 +1,8 @@
 window.onload = function () {
     const imagenes = [
-        'imagenes/aguja2.jpg',
-        'imagenes/hilados.jpg',
-        'imagenes/materiales.jpg'
+        '/imagenes/aguja2.jpg',
+        '/imagenes/hilados.jpg',
+        '/imagenes/materiales.jpg'
     ];
 
     const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
